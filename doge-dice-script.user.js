@@ -59,7 +59,7 @@ function Socket () {
 			var doge = $( '#dogeValue' ).val(), total = doge*priceData['doge'];
             console.log(priceData);
             
-            $('.chatinput').val( doge+" DOGE is currently worth "+total+" BTC ($"+(parseInt(total)*parseInt(priceData['btc']))+") on "+priceData['market']+" (1 DOGE = "+priceData['doge']+" BTC)" );
+            $('.chatinput').val( doge+" DOGE is currently worth "+total.toFixed(8)+" BTC ($"+(parseInt(total)*parseInt(priceData['btc']))+") on "+priceData['market']+" (1 DOGE = "+priceData['doge']+" BTC)" );
         }
 }
 
