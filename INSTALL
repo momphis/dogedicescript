@@ -1,0 +1,12 @@
+Have only tested on Tampermonkey for Chrome.  For best results, use that.
+
+1. Download Tampermonkey for Chrome
+
+  https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
+  
+
+2. Install the script
+
+  https://github.com/momphis/dogedicescript/raw/master/doge-dice-script.user.js
+  
+contact momphis.justdice@gmail.com if you have issues.
